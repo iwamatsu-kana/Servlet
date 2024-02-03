@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
+
 @WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
 
@@ -23,8 +24,8 @@ public class TestServlet extends HttpServlet {
 
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
-		String.out.println(username);
-		String.out.println(password);
+		System.out.println(username);
+		System.out.println(password);
 
 		PrintWriter out=response.getWriter();
 
@@ -37,8 +38,8 @@ public class TestServlet extends HttpServlet {
 
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
-		String.out.println(username);
-		String.out.println(password);
+		System.out.println(username);
+		System.out.println(password);
 
 		PrintWriter out=response.getWriter();
 
